@@ -27,7 +27,7 @@ let boolean = {
 let Undefined = {
     tipo: "undefined",
     descrizione: "Rappresenta un valore che ancora non è stato definito. Quella variabile non ha mai avuto nessun valore." 
-+    "E' come prendere una scatola vuota in cui non c'è mai stato nulla"
++    " E' come prendere una scatola vuota in cui non c'è mai stato nulla"
 }
 let Null = { 
     tipo: "null",
@@ -45,7 +45,7 @@ console.log("Un oggetto, in javascript, rappresenta un gruppo di dati organizzat
 + "E' come se fosse un contenitore di variabili, in cui le variabili sono le proprietà (chiave) dell'oggetto."
 + " Un esempio di oggetto è: \n" 
 + " let io = { \n"
-+ "     Nome: Andrea,\n"
++ '     Nome: "Andrea",\n'
 +"     Età: 29 \n"
 +"}"
 );
