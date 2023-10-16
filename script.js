@@ -22,15 +22,16 @@ let string = {
 }
 let boolean = {
     tipo:"boolean",
-    descrizione: "Si tratta di un tipo logico di dato. VERO o FALSO. Ad esempio si può chiedere al computer se è giorno(vero) o se è notte(falso)"
+    descrizione: "Si tratta di un tipo logico di dato. VERO o FALSO. Ad esempio si può chiedere al computer se è giorno(vero) o se è notte(falso)."
 }
 let Undefined = {
     tipo: "undefined",
-    descrizione: "Rappresenta un valore che ancora non è stato definito. Quella variabile non ha mai avuto nessun valore. E' come prendere una scatola vuota in cui non c'è mai stato nulla"
+    descrizione: "Rappresenta un valore che ancora non è stato definito. Quella variabile non ha mai avuto nessun valore." 
++    "E' come prendere una scatola vuota in cui non c'è mai stato nulla"
 }
 let Null = { 
     tipo: "null",
-    descrizione: "Rappresenta un valore vuoto. La variabile prima conteneva qualcosa, ora non contiene più nulla"
+    descrizione: "Rappresenta un valore vuoto. La variabile prima conteneva qualcosa, ora non contiene più nulla."
 }
 console.log(number,string,boolean,Undefined,Null);
 console.log("\n");
@@ -44,7 +45,7 @@ console.log("Un oggetto, in javascript, rappresenta un gruppo di dati organizzat
 + "E' come se fosse un contenitore di variabili, in cui le variabili sono le proprietà (chiave) dell'oggetto."
 + " Un esempio di oggetto è: \n" 
 + " let io = { \n"
-+ "     Nome:Andrea\n"
++ "     Nome: Andrea,\n"
 +"     Età: 29 \n"
 +"}"
 );
@@ -65,7 +66,7 @@ console.log("\n");
 /* SCRIVI QUI LA TUA RISPOSTA */
 console.log("ESERCIZIO N°4");
 let x = 12
-console.log("Variabile: " + x);
+console.log("x: " + x);
 console.log("\n");
 /* ESERCIZIO 5
  Crea una variable chiamata "name" e assegna ad essa il tuo nome, sotto forma di stringa.
